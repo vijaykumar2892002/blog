@@ -1,38 +1,453 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>News App</title>
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <title>Blog page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
 
-    
-    
+      <!--Fonticons-->
+
+      <link href="fontawesome/css/all.min.css" rel="stylesheet">
+      <link href="fontawesome/css/brands.css" rel="stylesheet">
+      <link href="fontawesome/css/solid.css" rel="stylesheet">
+      <!--icons-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!--bootsrap!-->
+  <link rel="stylesheet" href="css/style.css">-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+
+
   </head>
   <body>
-    <div>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+    <!--navbar-->
+<section id="title ">
+  <nav class="fixed-top navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand " href="#"><un class="nav-iconss">
+      DailyNewsDose
+    </un></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+                 <a class="nav-link active nav-icons" aria-current="page" href="index.html"> <strong class="nav-icons">Read News</strong></a>
+               </li>
+               <li class="nav-item ">
+                 <a class="nav-link active " href="https://delightfully-miniature-owl-mobile-dev.wayscript.cloud/"><strong class="nav-icons">Play Quiz</strong></a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link active nav-icons" href="#"> <strong class="nav-icons">DND Blogs</strong></a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link active nav-icons" href="https://super-maamoul-43ce32.netlify.app/"><strong class="nav-icons">DND Weather</strong></a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link active nav-icons" href="https://splendorous-cassata-3213a4.netlify.app/"><strong class="nav-icons">DND World Clock</strong></a>
+               </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <strong class="nav-icons">Catagories</strong>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item nav-icons" href="#business"><strong class="nav-icons">Business</strong></a></li>
+            <li><a class="dropdown-item nav-icons" href="#travel"><strong class="nav-icons">Travelling</strong></a></li>
+            <li><a class="dropdown-item nav-icons" href="#technology"><strong class="nav-icons">Technology</strong></a></li>
+          </ul>
+        </li>
       </ul>
-    </nav> 
+    </div>
   </div>
-    <div class="heading-container">
-      <h5>Daily News Dose</h5>
-      <div class="options-container"></div>
-      <div class="container"></div>
-    <!-- API Key -->
-      <script src="api-key.js"></script>
-    <!-- Script -->
-      <script src="script.js"></script>
+</nav>
+</section>
+<!--header-->
+<div class="banner">
+    <div class=kuchbe>
+      <h1 class = "heading">Blog</h1>
+    </div>
+
+
+    </div>
+    <section id="testimonials">
+
+    <
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+      <div class="carousel-inner ">
+
+        <div class="carousel-item active">
+          <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRCAbP4iIrzn_-GrwPnj68XQrfWXNqyITH5sseWzZf8feQrm3qcaQNhQdu7dZ5LhSYN5XWVk6A42C_cjWTy_8FYVw" width="200" height="400" class="img d-block w-100" alt="test">
+          <br /> <strong class="rate">Red Fort</strong>
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSJG-e5WRZ38THACw94Uym3qJEJqxBTJA4Yf59kwSjEtYSz-A1g5xSU8ctzixmpeq0qcURTNwMuqSnZU6hapWDGSA " width="200" height="400"
+            class="img d-block w-100" alt="T20">
+          <br /> <strong class="rate">India Gate</strong>
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF15EPXyfHenQUC8QZR8YZyy0CHmd0RDVM2WtD_O7vDiZETpHHW-bTPlY5Qi-KAi4TLGEyTJnk49HvrwHmheP0jg" width="200" height="400" class="img d-block w-100" alt="csk">
+          <br /> <strong class="rate">Taj Mahal</strong>
+        </div>
+        <div class="carousel-item">
+          <img src=" https://images.unsplash.com/photo-1568736333626-be878c584b98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" width="200" height="400" class="img d-block w-100" alt="RCB">
+          <br /> <strong class="rate">Travelling</strong>
+        </div>
+        <div class="carousel-item">
+          <img src="https://media.istockphoto.com/id/1172540974/photo/srinagar-kashmir.jpg?s=612x612&w=0&k=20&c=_C-nocm9MNHiUgtn2Jtun9s3qTxpLBLCfFJ4lNZ7NTo=" width="200"
+            height="400" class="slide-img d-block w-100" alt="50-50">
+          <br /> <strong class="rate">Kashmir Valley</strong>
+        </div>
       </div>
-  </body>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--card-->
+<!--for Bussiness-->
+  <div id = "business" class="row main-div mb-3  ">
+    <div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 22rem;">
+    <img id="image-price" src="https://davidnorris.org/wp-content/uploads/2022/10/3_Foundational_Moments_in_Business.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Risk, Perseverance, and Building a Team: 3 Foundational Moments in Business</h5>
+    <p class="card-text">No matter where you find yourself, foundational moments are huge for our lives
+      and God designed us to experience them and gain confidence by walking through them.</p>
+    <a href="https://davidnorris.org/risk-perseverance-and-building-a-team-3-foundational-moments-in-business/" class="btn btn-primary">More Reading</a>
+  </div>
+    </div>
+
+
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://davidnorris.org/wp-content/uploads/2023/04/business_leader.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">3 Ways To Be a Business Leader</h5>
+<p class="card-text">Business leaders have a great purpose and importance in our communities. I’ll go further and say it’s Godly when Christ’s followers prosper and bless their local areas. “When the godly are in authority, the people rejoice.
+   But when the wicked are in power, they groan.”
+   God intends to bless His people and people…</p>
+<a href="https://davidnorris.org/3-ways-to-be-a-business-leader/" class="btn btn-primary">More Reading</a>
+</div>
+</div>
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://davidnorris.org/wp-content/uploads/2023/03/leadership_eyes.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Having Leadership Eyes</h5>
+<p class="card-text">Leadership eyes When multiple people look at something, not everyone sees the same thing. Some people see the problem. Some see the solution.
+   Some see who to blame.
+   Some see why it can’t work and some see why it will work. What do you see when looking at a situation? Everyone has their perspective on…</p>
+<a href="https://davidnorris.org/having-leadership-eyes/" class="btn btn-primary">More Reading</a>
+</div>
+</div>
+
+  </div>
+  <!--card-->
+  <div class="row main-div mb-3">
+    <div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+  <img id="image-price" src="https://davidnorris.org/wp-content/uploads/2023/03/The-Path-crop-op.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">The Path to Greatness</h5>
+    <p class="card-text">Right now I’m sitting on the floor of an elementary school’s gym, watching my son practice basketball. His dreams are big and his desire shows in the hard work he puts in.
+      From the details in practice to the games he plays, he’s reaching to learn and be the best he can be. I’m not…</p>
+    <a href="https://davidnorris.org/the-path-to-greatness/" class="btn btn-primary">More Reading</a>
+  </div>
+  </div>
+
+  <div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+  <img id="image-price" src="https://davidnorris.org/wp-content/uploads/2023/01/Teamwork-1.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">
+Building Teamwork</h5>
+  <p class="card-text">“Two people are better off than one, for they can help each other succeed.”
+    Ecclesiastes‬ ‭4‬:‭9‬ For anything great to happen, you need others. Teamwork makes the dream work and in fact, it’s the only way that the dream will work.
+     As business leaders, we strategize our plans, our focus, and our goals as we…</p>
+  <a href="https://davidnorris.org/building-teamwork/" class="btn btn-primary">More Reading</a>
+  </div>
+  </div>
+  <div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 22rem;">
+  <img id="image-price" src="https://davidnorris.org/wp-content/uploads/2022/08/chess.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">Leadership Mind Games</h5>
+  <p class="card-text">Being a leader is a big deal! There’s so much more to it than people see as you carry the responsibility for others, and how you go impacts those you lead.
+    When you grow, others have a chance to grow.
+    When you stagnate, others will stagnate too. Furthermore, you are a target for other people’s…</p>
+  <a href="https://davidnorris.org/leadership-mind-games/" class="btn btn-primary">Reading More</a>
+  </div>
+  </div>
+
+  </div>
+
+
+
+<!--card-->
+<div class="row main-div mb-3">
+  <div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://davidnorris.org/wp-content/uploads/2022/09/growth.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">How To Achieve Long-Term Business Growth</h5>
+  <p class="card-text">Have you noticed how fast everything is? Food is fast. Coffee is fast. Our meals are fast. We drive fast. Packages are delivered fast. We’re in a hurry. We’re always available,
+    and we want everything to be as fast as it can be for our convenience. It seems that the more things we can get…</p>
+  <a href="https://davidnorris.org/how-to-achieve-long-term-business-growth/" class="btn btn-primary">Reading More</a>
+</div>
+</div>
+
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://davidnorris.org/wp-content/uploads/2023/05/Dream_1.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">What’s Your Dream?</h5>
+<p class="card-text">What’s your dream? For business leaders, there can be both small and big dreams, but there’s no doubt we have a dream.
+  This is the WHY of what motivated us to be a leader and move forward with the risk of doing something. It takes courage to go for your dreams and reach for something…</p>
+<a href="https://davidnorris.org/whats-your-dream/" class="btn btn-primary">Reading More</a>
+</div>
+</div>
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 22rem;">
+<img id="image-price" src="https://davidnorris.org/wp-content/uploads/2023/01/Money-1-crop-op.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Money is a Big Deal</h5>
+<p class="card-text">Money is a big deal. It’s on our minds and we’re very sensitive toward the subject. We work to make a living as we provide for our families, give to God, achieve our goals, and impact generations that follow us.
+   Money is not bad, it’s a tool. When it’s done right, great things happen! “And…</p>
+<a href="https://davidnorris.org/money-is-a-big-deal/" class="btn btn-primary">Reading More </a>
+</div>
+</div>
+</div>
+
+<hr>
+<!--For Travelling-->
+<!--card-->
+<div id= "travel" class="row main-div mb-3">
+  <div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://www.knowledgehippo.com/temp/thumb_2017-11-07-18-08-38" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Best All Inclusive Vacation Deals</h5>
+  <p class="card-text">Taking the family in the midst of a furlough is one of the best delights in life.
+    It is an open door make tracks in an opposite direction from the standard, fatigue, and worry of regular daily existen...</p>
+  <a href="https://www.knowledgehippo.com/article/best-all-inclusive-vacation-deals" class="btn btn-primary">Reading more...</a>
+</div>
+</div>
+
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://www.knowledgehippo.com/temp/1497365086.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">How To Cope With Flight Cancellations And Delays</h5>
+<p class="card-text">
+In order for final minute tourists, to find absolutely the satisfactory remaining-minute flight deals from their metropolis, tour internet site, Hopper just launched the Flight Tonight app for iOS 7 gadgets,
+ where you may actually e-book your flight on the manner to the airport.…</p>
+<a href="https://www.knowledgehippo.com/article/how-to-cope-with-flight-cancellations-and-delays" class="btn btn-primary">Reading more..</a>
+</div>
+</div>
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 22rem;">
+<img id="image-price" src="https://www.knowledgehippo.com/temp/Cheap-International-Business-Class-Flights.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">LIVE FLIGHT TRACKER: HOW YOU CAN USE ONE</h5>
+<p class="card-text">Live flight tracking offerings are one of the maximum useful and modern tools to have at your disposal the following time you or a cherished one takes a experience. A flight reputation stay flight tracker is a application
+  this is used on a ordinary foundation by purchasers, businesses, or even client rights advocates, …</p>
+<a href="https://www.knowledgehippo.com/article/live-flight-tracker-how-you-can-use-one" class="btn btn-primary">Reading more...</a>
+</div>
+</div>
+
+</div>
+
+
+<!--card-->
+<div class="row main-div mb-3">
+  <div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://www.tripsavvy.com/thmb/gsvNYW6xREKJL0nqQHpAOImQHHQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/iguazu-falls--iguazu-national-park--brazil-argentina-paraguay-border--1171077586-0c0af92a39e24d179bfa236d3248b2db.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Iguazu Falls Argentina & Brazil Travel Guide</h5>
+  <p class="card-text">Iguazu Falls is one of the world’s most spectacular and impressive waterfalls,
+     straddling the border between Argentina and Brazil in South America. With more than 275 individual …
+
+</p>
+  <a href="https://theworldtravelguy.com/iguazu-falls-argentina-brazil/" class="btn btn-primary">Reading more...</a>
+</div>
+</div>
+
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://lh3.googleusercontent.com/proxy/mc77jok1KQ-JFg4gQAUeNwDKPEP2bNpHMXACDo8Vaz16n9ZJpDtEdpubLAJhxd-sMV1T2kCDixvas_eBsBRbXY6gVXaMFRjX5nqNwoM0YKIO3mCbWxHj1GI8wCyxqdxz9tOD_6kPtmreEJ0IEddhfL1yo1RbH7Y=s1360-w1360-h1020" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">eVisa India: How To Get An Indian e-Visa Online (Travel & Tourist)</h5>
+<p class="card-text">India has some amazing architecture and natural sights,
+  with famous landmarks like the Taj Mahal in Agra, and snow capped mountains in the Himalayas. Most nationalities (except….…</p>
+<a href="https://theworldtravelguy.com/evisa-india-how-to-get-an-india-tourist-visa-for-travel/" class="btn btn-primary">Reading more..</a>
+</div>
+</div>
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 22rem;">
+<img id="image-price" src="https://theworldtravelguy.com/wp-content/uploads/2020/06/DJI_0316_1200.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Kintamani Bali: What To Do In Kintamani (Volcano Village)</h5>
+<p class="card-text">Kintamani Bali is one of the island’s most underrated areas, with fresh mountain air, lake view hotels and restaurants, and the humongous 13-kilometer-wide volcanic caldera that the… …</p>
+<a href="https://theworldtravelguy.com/kintamani-bali-volcano-tour-hot-springs-lake-view-cafes-hotel" class="btn btn-primary">Reading more...</a>
+</div>
+</div>
+
+</div>
+
+<!--card-->
+<div class="row main-div mb-3">
+  <div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/88/0e/f7/great-blue-hole-belize.jpg?w=1200&h=-1&s=1" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Great Blue Hole Belize: Scenic Flight & Photos</h5>
+  <p class="card-text">The Great Blue Hole in Belize is probably one of the most famous travel photos ever.
+    It’s also the biggest underwater sinkhole in the world, and it looks even more amazing if you see it in person!…
+
+</p>
+  <a href="https://theworldtravelguy.com/great-blue-hole-belize/" class="btn btn-primary">Reading more...</a>
+</div>
+</div>
+
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/18/fc/4b.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Perito Moreno Glacier View & Trek (El Calafate Argentina)</h5>
+<p class="card-text">The Perito Moreno glacier is a natural wonder in Argentina made of big,
+   blue, beautiful ice. In fact, this stunning glacier covers more surface area than the …….…</p>
+<a href="https://theworldtravelguy.com/perito-moreno-glacier/" class="btn btn-primary">Reading more..</a>
+</div>
+</div>
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 22rem;">
+<img id="image-price" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/b7/da/79.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">James Bond Island Thailand: Phang Nga Bay Tour (Phuket)</h5>
+<p class="card-text">Thailand’s Phang Nga Bay is loaded with exotic island scenery, and one of the best things to see in the bay would have to be the famous James Bond Island, with its unusual balanced rock.…</p>
+<a href="https://theworldtravelguy.com/james-bond-island-thailand/" class="btn btn-primary">Reading more...</a>
+</div>
+</div>
+
+</div>
+
+<!--card-->
+<div class="row main-div mb-3">
+  <div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/88/0e/f7/great-blue-hole-belize.jpg?w=1200&h=-1&s=1" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Acatenango Volcano Hike: Volcan De Fuego Guatemala</h5>
+  <p class="card-text">The Great Blue Hole in Belize is probably one of the most famous travel photos ever.
+    It’s also the biggest underwater sinkhole in the world, and it looks even more amazing if you see it in person!…
+
+</p>
+  <a href="https://theworldtravelguy.com/great-blue-hole-belize/" class="btn btn-primary">Reading more...</a>
+</div>
+</div>
+
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/18/fc/4b.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Perito Moreno Glacier View & Trek (El Calafate Argentina)</h5>
+<p class="card-text">The Perito Moreno glacier is a natural wonder in Argentina made of big,
+   blue, beautiful ice. In fact, this stunning glacier covers more surface area than the …….…</p>
+<a href="https://theworldtravelguy.com/perito-moreno-glacier/" class="btn btn-primary">Reading more..</a>
+</div>
+</div>
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 22rem;">
+<img id="image-price" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/b7/da/79.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">James Bond Island Thailand: Phang Nga Bay Tour (Phuket)</h5>
+<p class="card-text">Thailand’s Phang Nga Bay is loaded with exotic island scenery, and one of the best things to see in the bay would have to be the famous James Bond Island, with its unusual balanced rock.…</p>
+<a href="https://theworldtravelguy.com/james-bond-island-thailand/" class="btn btn-primary">Reading more...</a>
+</div>
+</div>
+
+</div>
+<hr>
+<!--For technology-->
+<!--card-->
+<div id="technology" class="row main-div mb-3">
+  <div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://davidnorris.org/wp-content/uploads/2023/01/3_ways_to_have_a_fresh_start_this_year.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">3 Ways To Have A Fresh Start This Year</h5>
+  <p class="card-text">Did you ever get a redo in school? I did and man, I needed it. Far too often I was not prepared and after I did badly on a test, to get a redo was huge. Of course,
+    the second time around I did better because I learned from my mistake and was able to pass the test....</p>
+  <a href="https://davidnorris.org/3-ways-to-have-a-fresh-start-this-year/" class="btn btn-primary">Reading more...</a>
+</div>
+</div>
+
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 25rem;">
+<img id="image-price" src="https://diplo-media.s3.eu-central-1.amazonaws.com/2023/05/glrvkmjstyo-1024x683.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">AI revolutionarise journalism and media</h5>
+<p class="card-text">
+According to the Economist’s coverage, AI is revolutionising journalism, including newsgathering, proofreading, and creating data-driven stories.
+ AI is becoming increasingly sophisticated and is being used to help busy newsrooms.…</p>
+<a href="https://dig.watch/updates/ai-revolutionarise-journalism-and-media" class="btn btn-primary">Reading more..</a>
+</div>
+</div>
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 22rem;">
+<img id="image-price" src="https://diplo-media.s3.eu-central-1.amazonaws.com/2023/05/gps-system-in-a-smart-car-1024x683.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">China tightens data protection and cybersecurity regulations for autonomous vehicles</h5>
+<p class="card-text">China tightens data protection and cybersecurity regulations for autonomous vehicles …</p>
+<a href="https://dig.watch/updates/china-tightens-data-protection-and-cybersecurity-regulations-for-autonomous-vehicles" class="btn btn-primary">Reading more...</a>
+</div>
+</div>
+
+</div>
+
+<!--card-->
+<div class="row main-div mb-3">
+  <div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 24rem;">
+<img id="image-price" src="https://images.livemint.com/img/2023/02/08/600x338/ChatGPT_1675866498763_1675866499056_1675866499056.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Why authorities are investigating ChatGPT: The top 3 reasons</h5>
+  <p class="card-text">With its ability to replicate human-like responses in text-based interactions, OpenAI’s ChatGPT has been hailed as a breakthrough in AI technology.
+    But governments aren’t entirely sold on it. So what’s worrying them?....</p>
+  <a href="https://dig.watch/newsletters/dw-monthly/digital-watch-newsletter-issue-79-may-2023#why-authorities-are-investigating-chatgpt-the-top-reasons" class="btn btn-primary">Reading more...</a>
+</div>
+</div>
+
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 23rem;">
+<img id="image-price" src="https://editor.analyticsvidhya.com/uploads/49174Blockchain-Technology.png" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Blockchain in 2023: Can blockchain technology survive the cryptocurrency crisis?</h5>
+<p class="card-text">
+For years,  blockchain technology has benefited from the widespread interest in bitcoin and other cryptocurrencies.
+The future of the blockchain technology that underpins cryptocurrencies is uncertain in the face of today’s plunging bitcoin price..…</p>
+<a href="https://dig.watch/technologies/blockchain" class="btn btn-primary">Reading more..</a>
+</div>
+</div>
+<div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 24rem;">
+<img id="image-price" src="https://imageio.forbes.com/specials-images/imageserve/5f9fa9e815da35da1356a28b/The-5-Biggest-Cloud-Computing-Trends-In-2021/960x0.jpg?format=jpg&width=960" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Cloud computing</h5>
+<p class="card-text">Cloud computing caused a shift from storing data on hard disks on our computers to storing it on servers in the cloud. Some examples include your e-mail account which you can access from different devices,
+   and any photos, videos, or documents you store online (even if your account is private).…</p>
+<a href="https://dig.watch/technologies/cloud-computing" class="btn btn-primary">Reading more...</a>
+</div>
+</div>
+
+</div>
+<footer id="footer">
+  <a href="https://twitter.com/home">
+  <i class="bi bi-twitter footer-icon footer-icons"></i>
+  </a>
+
+  <a href="https://web.telegram.org/z/">
+    <i class="bi bi-telegram footer-icon footer-icons"></i>
+  </a>
+  <a href="https://www.instagram.com/bjay_28/">
+     <i class="bi bi-instagram footer-icon footer-icons"></i>
+  </a>
+  <p>© Copyright Blog</p>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
 </html>
+<!--  <div class="card col-lg-4 col-md-12 col-sm-12 card mx-2 mb-4" style="width: 22rem;">
+  <img id="image-price" src="https://davidnorris.org/wp-content/uploads/2022/04/pd4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">Travel Location Ideas</h5>
+  <p class="card-text">Travelling is something that has an appeal of its own. Exploring new places, trying new cuisines, meeting new people, and most importantly, all those exciting adventures you experience.
+     But only a few people are able to follow their passion for travelling, explore the roads less travelled, and make a living out of it.</p>
+  <a href="#" class="btn btn-primary">Go somewhere</a>
+</div>
+</div>-->
